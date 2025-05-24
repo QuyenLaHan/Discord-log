@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bot.js",
     "dev": "nodemon bot.js",
-    "secure": "npx npm-audit"
+    "railway:deploy": "railway up --detach"
   },
   "keywords": [
     "pikamc",
@@ -28,9 +28,5 @@
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
-  },
-  "scripts": {
-    "start": "node bot.js",
-    "railway:deploy": "railway up --detach"
   }
 }
